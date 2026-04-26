@@ -273,6 +273,7 @@ The system expects a JSON file structured as follows:
     }
   ]
 }
+```
 
 ---
 
