@@ -8,6 +8,7 @@
 ![Governed Architecture](https://img.shields.io/badge/Architecture-Governed-1F3B73?style=flat)
 ![Human in the Loop](https://img.shields.io/badge/Design-Human%20in%20the%20Loop-8A2BE2?style=flat)
 ![Status](https://img.shields.io/badge/Status-Complete-2E8B57?style=flat)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
 ---
 
@@ -245,6 +246,36 @@ No hidden state is required.
 📘 README.md  
 
 ---
+
+## Dataset and Copyright
+
+The civic questions used in this project are derived from publicly available materials related to the French civic integration exam, originally produced by official French government sources.
+
+This repository does **not include the dataset** and does not claim ownership of the original content.
+
+The dataset used during development was a structured transformation of these publicly available materials, created solely for educational and demonstrative purposes.
+
+To run the project, users must provide their own dataset file following the expected format.
+
+---
+
+## Dataset Format
+
+The system expects a JSON file structured as follows:
+
+```json
+{
+  "Chapter Name": [
+    {
+      "question": "...",
+      "answer": "...",
+      "tags": ["optional", "tags"]
+    }
+  ]
+}
+
+---
+
 
 ## Professional Relevance
 
