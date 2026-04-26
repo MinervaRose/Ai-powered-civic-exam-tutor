@@ -1,5 +1,4 @@
 # Agentic AI Civic Tutor for French Exam Preparation
-## Integrative Educational AI System Design — Capstone Synthesis
 
 ![Python](https://img.shields.io/badge/Python-3.10-0B1F3B?style=flat&logo=python&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat&logo=jupyter&logoColor=white)
